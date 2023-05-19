@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/GreatVibes-Regular.otf",
+      "sha1": "7a78278837e269ec5d0bf338534781b94c0bef8c"
+    },
+    {
+      "path": "assets/fonts/Poppins-ExtraBold.ttf",
+      "sha1": "6f007dac8dacf714ddcfaa3132a887e6a71cf792"
+    },
+    {
+      "path": "assets/fonts/Poppins-Light.ttf",
+      "sha1": "0eba831cb91221e799ba55fc1b7c1805a0799623"
+    },
+    {
+      "path": "assets/fonts/Poppins-Thin.ttf",
+      "sha1": "9bebfeda7e983ad8d9d78059e44f937622c42dd7"
+    }
+  ]
+}
