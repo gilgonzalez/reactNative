@@ -2,6 +2,10 @@
   "migIndex": 1,
   "data": [
     {
+      "path": "assets/fonts/consolaz.ttf",
+      "sha1": "9a9788a76b7b20da3ac0d8ac988e86399509521e"
+    },
+    {
       "path": "assets/fonts/GreatVibes-Regular.otf",
       "sha1": "7a78278837e269ec5d0bf338534781b94c0bef8c"
     },

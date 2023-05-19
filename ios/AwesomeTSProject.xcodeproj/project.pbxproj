@@ -18,6 +18,7 @@
 		58A1B24E2C7E41778779C64F /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BBA7D627FA94995A4D94FF3 /* Poppins-Light.ttf */; };
 		F253E30B0A6847E4A0234146 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CCB97981E694E1F8DC6DB6C /* Poppins-Thin.ttf */; };
 		000C5C8108484291B36D0AC2 /* GreatVibes-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A591653FA95144FF9258E827 /* GreatVibes-Regular.otf */; };
+		C89015626B3E452A9A564A72 /* consolaz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65ED571F1C8E4F1CA976C346 /* consolaz.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		7BBA7D627FA94995A4D94FF3 /* Poppins-Light.ttf */ = {isa = PBXFileReference; name = "Poppins-Light.ttf"; path = "../assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		0CCB97981E694E1F8DC6DB6C /* Poppins-Thin.ttf */ = {isa = PBXFileReference; name = "Poppins-Thin.ttf"; path = "../assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		A591653FA95144FF9258E827 /* GreatVibes-Regular.otf */ = {isa = PBXFileReference; name = "GreatVibes-Regular.otf"; path = "../assets/fonts/GreatVibes-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		65ED571F1C8E4F1CA976C346 /* consolaz.ttf */ = {isa = PBXFileReference; name = "consolaz.ttf"; path = "../assets/fonts/consolaz.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				7BBA7D627FA94995A4D94FF3 /* Poppins-Light.ttf */,
 				0CCB97981E694E1F8DC6DB6C /* Poppins-Thin.ttf */,
 				A591653FA95144FF9258E827 /* GreatVibes-Regular.otf */,
+				65ED571F1C8E4F1CA976C346 /* consolaz.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				58A1B24E2C7E41778779C64F /* Poppins-Light.ttf in Resources */,
 				F253E30B0A6847E4A0234146 /* Poppins-Thin.ttf in Resources */,
 				000C5C8108484291B36D0AC2 /* GreatVibes-Regular.otf in Resources */,
+				C89015626B3E452A9A564A72 /* consolaz.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

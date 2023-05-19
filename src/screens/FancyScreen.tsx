@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#121212'
   },
   innerContainer: {
-    backgroundColor: '#fff',
+    backgroundColor: 'white',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
