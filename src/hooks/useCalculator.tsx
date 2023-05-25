@@ -1,5 +1,6 @@
 import { useRef, useState } from "react"
 import { Operadores } from "../screens/CalculatorScreen"
+import Toast from 'react-native-toast-message';
 
 const useCalculator = () => {
 
@@ -9,11 +10,17 @@ const useCalculator = () => {
   const [error, setError] = useState(false)
   const calculo = useRef<Operadores>()
 
+
   const clear = () => {
     setNumero('0')
     setAlmacenado('0')
     setSigno('')
     setError(false)
+    Toast.show({
+      type: 'success',
+      text1: 'Hello',
+      text2: 'This is some something 👋'
+    });
   }
   const addCharacter = (char: string) => {
     if (numero.includes('.') && char === '.') return;

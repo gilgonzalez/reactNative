@@ -1,8 +1,9 @@
-import React, { useRef, useState } from 'react'
+import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 import { styles as globalStyle } from '../theme/appTheme';
 import ButtonCalculator from './components/ButtonCalculator';
 import useCalculator from '../hooks/useCalculator';
+import { Toast } from 'react-native-toast-message/lib/src/Toast';
 
 export enum Operadores {
   SUMAR,
@@ -28,10 +29,10 @@ const CalculatorScreen = () => {
     calcular,
     changeSign,
     clear } = useCalculator()
-
-
+  
   return (
     <View style={styles.container}>
+      <Toast />
       <Text style={globalStyle.title}>Apple Calculator</Text>
       <View style={styles.screen}>
         {almacenado !== '0' && <Text style={globalStyle.saveResult}> {almacenado} </Text>}
